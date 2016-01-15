@@ -1,0 +1,8 @@
+footer > * {
+    display: inline-block;
+}
+
+footer aside {
+    font-size: 140px;
+    color: dodgerblue;
+}

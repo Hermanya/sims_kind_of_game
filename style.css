@@ -1,0 +1,23 @@
+* {
+    transition: 0.25s;
+}
+
+body {
+    background-color: whitesmoke;
+    text-align: center;
+    font-family: monospace;
+
+}
+
+/*for pixel-like effect*/
+body:after {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAACAQMAAABIeJ9nAAAABlBMVEX///8AAABVwtN+AAAAAnRSTlMAZtJCCVUAAAAMSURBVAgdY2hgYAAAAYQAgWvbDiMAAAAASUVORK5CYII=);
+    content: ``;
+    height: 100%;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+}

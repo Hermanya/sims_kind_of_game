@@ -1,0 +1,30 @@
+#apartment {
+    display: inline-block;
+    white-space: pre;
+    margin: auto;
+    position: relative;
+    font-size: 64px;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    cursor: pointer;
+
+}
+
+.row-of-things-in-the-apartment, .person {
+    height: 53px;
+}
+
+.tile, .person {
+    width: 39px;
+    line-height: 53px;
+    text-align: center;
+    display: inline-block;
+    float: left;
+    position: relative;
+    transition: 0.5s;
+}
+
+.water {
+    text-shadow: 0 0 16px lightblue;
+}
